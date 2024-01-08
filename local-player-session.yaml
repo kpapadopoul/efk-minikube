@@ -1,0 +1,5 @@
+#Create namespace, named local player-session
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: local-player-session

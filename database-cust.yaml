@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: database-cust
+  #namespace: local-cust-db
+spec:
+  containers:
+  - name: database-cust
+    image: harbor-sandbox.obinfra.net/sandbox/ref/database-cust:12.297

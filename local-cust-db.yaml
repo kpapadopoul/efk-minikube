@@ -1,0 +1,5 @@
+#Create namespace, named local cust-db
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: local-cust-db
